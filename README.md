@@ -21,12 +21,17 @@ This project is a Java17/Spring Boot 3 application that retrieves repository and
 
 Follow these steps to set up and run the project locally:
 
-1. Install dependencies using Maven:
+1. Clone project:
+```sh
+git clone https://github.com/Krucii/GitHub_API_Data_Retrieval.git
+cd GitHub_API_Data_Retrieval
 ```
+2. Install dependencies using Maven:
+```sh
 mvn clean install
 ```
-2. Run the Spring Boot application:
-```
+3. Run the Spring Boot application:
+```sh
 mvn spring-boot:run
 ```
 
